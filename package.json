@@ -1,7 +1,7 @@
 {
   "name": "react-has-mounted",
   "version": "0.1.0",
-  "description": "React Hight Oreder Component for SSR",
+  "description": "High Order Component for React SSR",
   "main": "index.js",
   "author": "Luchanskiy Oleg <luchansodev@gmail.com>",
   "license": "MIT",
