@@ -1,0 +1,13 @@
+{
+  "name": "react-has-mounted",
+  "version": "0.1.0",
+  "description": "React Hight Oreder Component for SSR",
+  "main": "index.js",
+  "author": "Luchanskiy Oleg <luchansodev@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1"
+  }
+}
