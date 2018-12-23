@@ -1,6 +1,6 @@
 # react-has-mounted
 
-Hight Ordered COmponent wich detect componentDidMount() call.
+High Ordered Component which detect componentDidMount() call.
 
 Examples:
 
