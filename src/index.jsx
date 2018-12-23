@@ -1,21 +1,24 @@
-const hoc = (Component) => {
-    return class {
-        state = {
-            hasMounted: false
-        };
+import React from 'react';
 
-        componentDidMount() {
-            this.setState({
-                hasMounted: true
-            })
-        }
+export const hasMounted = () => {
+  return Component =>
+    class extends React.Component {
+      state = {
+        hasMounted: false
+      };
 
-        render() {
-            return (
-                <Component {...this.props} hasMounted={ this.state.hasMounted } />
-            )
-        }
-    }
-}
+      componentDidMount() {
+        this.setState({
+          hasMounted: true
+        });
+      }
 
-export default hoc;
+      render() {
+        return <Component {...this.props} hasMounted={this.state.hasMounted} />;
+      }
+    };
+};
+
+export default {
+  hasMounted
+};
