@@ -1,5 +1,7 @@
 # react-has-mounted
 
+[![Coverage Status](https://coveralls.io/repos/github/Luchanso/react-has-mounted/badge.svg?branch=master)](https://coveralls.io/github/Luchanso/react-has-mounted?branch=master)
+
 High Ordered Component which detect componentDidMount() call.
 
 Examples:
