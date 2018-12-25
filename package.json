@@ -24,7 +24,9 @@
     "coveralls": "^3.0.2",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "targets": "> 0.25%, not dead",
   "jest": {
