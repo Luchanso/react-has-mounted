@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest",
     "build": "babel src -d build --ignore \"src/__test__/**/*\" && cp package.json build/package.json",
-    "pub": "cd build && npm publish",
+    "pub": "yarn build && cd build && npm publish",
     "test-coverage": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "devDependencies": {
