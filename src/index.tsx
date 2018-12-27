@@ -1,6 +1,5 @@
 import * as React from "react";
-// import { Subtract } from "./types";
-import { Subtract } from 'utility-types';
+import { Subtract } from "./types";
 
 
 interface InjectedProps {
@@ -38,6 +37,3 @@ export const withCheckMount = <WrappedProps extends InjectedProps>(
 export default {
   withCheckMount
 };
-
-// Type 'Readonly<{ children?: ReactNode; }> & Readonly<Pick<P, Exclude<keyof P, "hasMounted">>> & { hasMounted: boolean; }' is not assignable to type 'IntrinsicAttributes & P & { children?: ReactNode; }'.
-//   Type 'Readonly<{ children?: ReactNode; }> & Readonly<Pick<P, Exclude<keyof P, "hasMounted">>> & { hasMounted: boolean; }' is not assignable to type 'P'.

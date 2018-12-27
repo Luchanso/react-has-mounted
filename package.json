@@ -1,6 +1,6 @@
 {
   "name": "react-has-mounted",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "High Order Component for React SSR",
   "main": "index.js",
   "author": "Luchanskiy Oleg <luchansodev@gmail.com>",
@@ -43,8 +43,5 @@
   "peerDependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
-  },
-  "dependencies": {
-    "utility-types": "^3.2.0"
   }
 }
