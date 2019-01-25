@@ -1,6 +1,6 @@
 {
   "name": "react-has-mounted",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "High Order Component for React SSR",
   "main": "index.js",
   "author": "Luchanskiy Oleg <luchansodev@gmail.com>",
@@ -19,6 +19,10 @@
     "@babel/plugin-proposal-class-properties": "7.3.0",
     "@babel/preset-env": "7.3.1",
     "@babel/preset-react": "7.0.0",
+    "@types/enzyme": "^3.1.15",
+    "@types/jest": "^23.3.10",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "23.6.0",
     "coveralls": "3.0.2",
@@ -26,7 +30,8 @@
     "enzyme-adapter-react-16": "1.7.1",
     "jest": "23.6.0",
     "react": "16.7.0",
-    "react-dom": "16.7.0"
+    "react-dom": "16.7.0",
+    "typescript": "^3.2.2"
   },
   "targets": "> 0.25%, not dead",
   "jest": {
