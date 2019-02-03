@@ -3,3 +3,4 @@ coverage
 build
 __integration-test__
 .log
+.vscode
